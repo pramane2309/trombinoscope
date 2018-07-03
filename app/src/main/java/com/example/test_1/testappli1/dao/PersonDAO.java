@@ -1,8 +1,7 @@
 package com.example.test_1.testappli1.dao;
 
-import com.example.test_1.testappli1.DataPerson;
-import com.example.test_1.testappli1.Person;
-import com.example.test_1.testappli1.dao.IPersonDAO;
+import com.example.test_1.testappli1.data.DataPerson;
+import com.example.test_1.testappli1.dto.Person;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.test_1.testappli1;
+package com.example.test_1.testappli1.dto;
 
 public class Person {
     private String firstName;

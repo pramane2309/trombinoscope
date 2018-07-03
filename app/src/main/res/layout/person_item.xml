@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:padding="18dp">
+    android:padding="10dp"
+    >
 
     <ImageView
         android:id="@+id/avatar"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        tools:background="#AAA"/>
+        tools:background="#AAA" />
 
     <TextView
         android:id="@+id/lastName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/avatar"
-        android:layout_alignTop="@+id/avatar" android:textStyle="bold" tools:Text="NOM" />
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/avatar"
+        android:layout_alignTop="@+id/avatar"
+        android:textStyle="bold"
+        tools:text="NOM"
+        />
 
     <TextView
         android:id="@+id/firstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/lastName"
-        android:layout_alignTop="@+id/lastName" android:textStyle="bold" tools:Text="PRENOM"/>
+        android:layout_alignLeft="@+id/lastName"
+        android:layout_below="@+id/lastName"
+        tools:text="PRENOM"
+        />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

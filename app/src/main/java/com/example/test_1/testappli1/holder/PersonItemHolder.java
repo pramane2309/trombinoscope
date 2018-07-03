@@ -1,4 +1,4 @@
-package com.example.test_1.testappli1;
+package com.example.test_1.testappli1.holder;
 
 import android.widget.ImageView;
 import android.widget.TextView;

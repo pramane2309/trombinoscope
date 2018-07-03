@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/Add_person"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".activity.AddPersonActivity"
+android:weightSum="1">
+
+
+<EditText android:id="@+id/input_lastnameadd"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activity.AddPersonActivity">
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:hint="NOM" />
 
+<EditText android:id="@+id/input_firstnameadd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:hint="PRENOM"/>
 
+<Button
+    android:id="@+id/btn_addperson"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:layout_marginBottom="24dp"
+    android:padding="12dp"
+    android:text="Ajouter une personne"/>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

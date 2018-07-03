@@ -1,6 +1,8 @@
-package com.example.test_1.testappli1;
+package com.example.test_1.testappli1.data;
 
 import android.graphics.Color;
+
+import com.example.test_1.testappli1.dto.Person;
 
 import java.util.ArrayList;
 import java.util.List;
