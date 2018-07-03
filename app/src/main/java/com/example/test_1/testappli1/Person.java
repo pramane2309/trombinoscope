@@ -1,9 +1,9 @@
 package com.example.test_1.testappli1;
 
 public class Person {
-    private String  firstName;
-    private String  lastName;
-    private int  avatarColor;
+    private String firstName;
+    private String lastName;
+    private int avatarColor;
 
     public Person(String firstName, String lastName, int avatarColor) {
         this.firstName = firstName;

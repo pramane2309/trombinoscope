@@ -1,7 +1,9 @@
-package com.example.test_1.testappli1;
+package com.example.test_1.testappli1.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.test_1.testappli1.R;
 
 public class AddPersonActivity extends AppCompatActivity {
 

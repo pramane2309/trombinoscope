@@ -1,4 +1,6 @@
-package com.example.test_1.testappli1;
+package com.example.test_1.testappli1.dao;
+
+import com.example.test_1.testappli1.Person;
 
 import java.util.List;
 

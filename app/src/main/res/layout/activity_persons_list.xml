@@ -8,7 +8,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".PersonsListActivity">
+    tools:context=".activity.PersonsListActivity">
     <ListView
         android:id="@+id/personsList"
         android:layout_width="wrap_content"
